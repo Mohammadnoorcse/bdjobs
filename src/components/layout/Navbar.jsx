@@ -7,6 +7,7 @@ import { CiCamera } from "react-icons/ci";
 import { IoIosMenu } from "react-icons/io";
 const Navbar = () => {
     const [active,setActive] = useState("");
+    const [ismenu,setIsMenu] = useState(false);
   return (
     <>
       <div className="w-full h-[90px] flex justify-center items-center">
@@ -96,17 +97,17 @@ const Navbar = () => {
         </div>
       </div>
 
-      <div className="w-full h-[60px] flex justify-center items-center border border-red-500">
+      <div className="w-full h-[60px] flex justify-center items-center">
         <div className="content flex justify-between items-center">
           <a href="">
             <img
               src="https://bdjobs.com/images/bdjobsLogo.svg"
               alt=""
-              className="max-w-[164px]"
+              className="sm:max-w-[164px] max-w-[120px]"
             />
           </a>
           {/* child-2 */}
-          <div className="hidden items-center  ">
+          <div className="lg:flex hidden items-center  ">
             <a
               href=""
               className="text-[13px] text-[#424242] px-[15px] py-[20px] relative hover:bg-[#F5F5F5]"
@@ -148,7 +149,7 @@ const Navbar = () => {
             </a>
           </div>
           {/* child-3 */}
-          <div className="flex items-center gap-4">
+          <div className="lg:hidden flex items-center">
             <a
               href=""
               className="text-[13px] text-[#1976d2] px-[15px] py-[18px] relative hover:bg-[#F5F5F5] hover:text-[#6E92BD] font-bold"
@@ -158,9 +159,40 @@ const Navbar = () => {
               Create
               <span> Account </span>
             </a>
-            <span className="border border-[#e0e0e0] py-[7px] px-[10px] rounded-md cursor-pointer">
+            <span className="border border-[#e0e0e0] py-[7px] px-[10px] rounded-md cursor-pointer" onClick={()=>setIsMenu(true)}>
               <IoIosMenu />
             </span>
+          </div>
+          {/* child-4 */}
+          <div className={ismenu?"absolute top-0 right-0 w-[240px] h-full p-4 bg-[white] z-10 flex flex-col gap-4  ":"hidden"}>
+            <div className="text-[#a6a6a6] text-[14px] font-bold  border-b border-[#ddd] uppercase flex items-center gap-4 pb-[10px]">
+              <span className="text-[#ff3d00] cursor-pointer" onClick={()=>setIsMenu(false)}>x</span>
+              <span>Close</span>
+            </div>
+            <a href="#" className="text-[13px] text-[#212121]">
+              My Bdjobs
+            </a>
+            <a href="#">
+              <img
+                src="https://bdjobs.com/upcoming/images/BdjobsPro.svg"
+                alt=""
+              />
+            </a>
+            <a href="#" className="text-[13px] text-[#212121]">
+              My Bdjobs
+            </a>
+            <a href="#" className="text-[13px] text-[#212121]">
+              My Bdjobs
+            </a>
+            <a href="#" className="text-[13px] text-[#212121]">
+              My Bdjobs
+            </a>
+            <a href="#" className="text-[13px] text-[#212121]">
+              My Bdjobs
+            </a>
+            <a href="#" className="text-[13px] text-[#212121]">
+              My Bdjobs
+            </a>
           </div>
         </div>
       </div>
