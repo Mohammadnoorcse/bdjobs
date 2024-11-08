@@ -1,7 +1,14 @@
 import React from 'react'
+import Home from './page/Home';
+import Navbar from './components/layout/Navbar';
 
 const App = () => {
-  return <h1 className="text-3xl font-bold underline">hello</h1>;
+  return(
+      <>
+      <Navbar/>
+       <Home/>
+      </>
+  );
 }
 
 export default App
