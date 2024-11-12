@@ -4,12 +4,16 @@ import { SlGraph } from "react-icons/sl";
 import { LuMousePointerClick } from "react-icons/lu";
 import { FaBuilding } from "react-icons/fa6";
 import { GrUserManager } from "react-icons/gr";
-import { MdOutlineKeyboardDoubleArrowRight } from "react-icons/md";
+import {  MdOutlineKeyboardArrowLeft, MdOutlineKeyboardDoubleArrowRight } from "react-icons/md";
+import { MdOutlineKeyboardArrowRight } from "react-icons/md";
+import { HiOutlineMenuAlt3 } from "react-icons/hi";
+import { MdKeyboardArrowRight } from "react-icons/md";
+import { FaCirclePause } from "react-icons/fa6";
 
 const Home = () => {
   return (
     <>
-      {/* desktop screen  */}
+      {/* desktop screen  section-1 */}
       <div
         className="w-full h-[315px] bg-cover bg-center lg:flex hidden justify-center items-center"
         style={{ backgroundImage: `url(${bg})` }}
@@ -430,7 +434,509 @@ const Home = () => {
         </div>
       </div>
 
-      {/*  */}
+      {/* section-2 */}
+
+      <div className="w-full h-auto pt-4 pb-4 flex justify-center items-center bg-[#EEEEEE]">
+        <div className="content flex flex-col gap-4">
+          {/* child-1 */}
+          <div className="flex gap-4 lg:flex-row flex-col ">
+            {/* item-1 */}
+            <div className="lg:w-[80%] w-full p-[15px] flex flex-col gap-4 shadow-lg rounded-md border bg-[white]">
+              <div className="flex justify-between items-center">
+                <h2 className="flex items-center text-base text-[#2a5992] font-bold">
+                  <HiOutlineMenuAlt3 />
+                  <span>Browser Category</span>
+                </h2>
+                <div className="border flex items-center gap-1 text-[12px] border-[#757575] rounded-sm ">
+                  <button className="bg-[#757575] text-[#fff] p-1 ">
+                    Functional
+                  </button>
+                  <button className="p-1 bg-[#f5f5f5] text-[#616161]">
+                    Industrial
+                  </button>
+                </div>
+              </div>
+              <div className="flex  gap-4 flex-wrap">
+                <div className="flex flex-col gap-2">
+                  <a
+                    href=""
+                    className="flex items-center gap-1 text-[14px] text-[#525252]"
+                  >
+                    <MdKeyboardArrowRight />
+                    <span>Accounting/Finance</span>
+                    <span>(307)</span>
+                  </a>
+                  <a
+                    href=""
+                    className="flex items-center gap-1 text-[14px] text-[#525252]"
+                  >
+                    <MdKeyboardArrowRight />
+                    <span>Bank/Non-Bank Fin. Institution</span>
+                    <span>(71)</span>
+                  </a>
+                  <a
+                    href=""
+                    className="flex items-center gap-1 text-[14px] text-[#525252]"
+                  >
+                    <MdKeyboardArrowRight />
+                    <span>Supply Chain/Procurement</span>
+                    <span>(139)</span>
+                  </a>
+                  <a
+                    href=""
+                    className="flex items-center gap-1 text-[14px] text-[#525252]"
+                  >
+                    <MdKeyboardArrowRight />
+                    <span>Education/Training</span>
+                    <span>(426)</span>
+                  </a>
+                  <a
+                    href=""
+                    className="flex items-center gap-1 text-[14px] text-[#525252]"
+                  >
+                    <MdKeyboardArrowRight />
+                    <span>Engineer/Architects</span>
+                    <span>(309)</span>
+                  </a>
+                  <a
+                    href=""
+                    className="flex items-center gap-1 text-[14px] text-[#525252]"
+                  >
+                    <MdKeyboardArrowRight />
+                    <span>Garments/Textile</span>
+                    <span>(479)</span>
+                  </a>
+                  <a
+                    href=""
+                    className="flex items-center gap-1 text-[14px] text-[#525252]"
+                  >
+                    <MdKeyboardArrowRight />
+                    <span>HR/Org.Development</span>
+                    <span>(307)</span>
+                  </a>
+                  <a
+                    href=""
+                    className="flex items-center gap-1 text-[14px] text-[#525252]"
+                  >
+                    <MdKeyboardArrowRight />
+                    <span>Gen Mgt/Admin</span>
+                    <span>(307)</span>
+                  </a>
+                </div>
+                <div className="flex flex-col gap-2">
+                  <a
+                    href=""
+                    className="flex items-center gap-1 text-[14px] text-[#525252]"
+                  >
+                    <MdKeyboardArrowRight />
+                    <span>Accounting/Finance</span>
+                    <span>(307)</span>
+                  </a>
+                  <a
+                    href=""
+                    className="flex items-center gap-1 text-[14px] text-[#525252]"
+                  >
+                    <MdKeyboardArrowRight />
+                    <span>Bank/Non-Bank Fin. Institution</span>
+                    <span>(71)</span>
+                  </a>
+                  <a
+                    href=""
+                    className="flex items-center gap-1 text-[14px] text-[#525252]"
+                  >
+                    <MdKeyboardArrowRight />
+                    <span>Supply Chain/Procurement</span>
+                    <span>(139)</span>
+                  </a>
+                  <a
+                    href=""
+                    className="flex items-center gap-1 text-[14px] text-[#525252]"
+                  >
+                    <MdKeyboardArrowRight />
+                    <span>Education/Training</span>
+                    <span>(426)</span>
+                  </a>
+                  <a
+                    href=""
+                    className="flex items-center gap-1 text-[14px] text-[#525252]"
+                  >
+                    <MdKeyboardArrowRight />
+                    <span>Engineer/Architects</span>
+                    <span>(309)</span>
+                  </a>
+                  <a
+                    href=""
+                    className="flex items-center gap-1 text-[14px] text-[#525252]"
+                  >
+                    <MdKeyboardArrowRight />
+                    <span>Garments/Textile</span>
+                    <span>(479)</span>
+                  </a>
+                  <a
+                    href=""
+                    className="flex items-center gap-1 text-[14px] text-[#525252]"
+                  >
+                    <MdKeyboardArrowRight />
+                    <span>HR/Org.Development</span>
+                    <span>(307)</span>
+                  </a>
+                  <a
+                    href=""
+                    className="flex items-center gap-1 text-[14px] text-[#525252]"
+                  >
+                    <MdKeyboardArrowRight />
+                    <span>Gen Mgt/Admin</span>
+                    <span>(307)</span>
+                  </a>
+                </div>
+                <div className="flex flex-col gap-2">
+                  <a
+                    href=""
+                    className="flex items-center gap-1 text-[14px] text-[#525252]"
+                  >
+                    <MdKeyboardArrowRight />
+                    <span>Accounting/Finance</span>
+                    <span>(307)</span>
+                  </a>
+                  <a
+                    href=""
+                    className="flex items-center gap-1 text-[14px] text-[#525252]"
+                  >
+                    <MdKeyboardArrowRight />
+                    <span>Bank/Non-Bank Fin. Institution</span>
+                    <span>(71)</span>
+                  </a>
+                  <a
+                    href=""
+                    className="flex items-center gap-1 text-[14px] text-[#525252]"
+                  >
+                    <MdKeyboardArrowRight />
+                    <span>Supply Chain/Procurement</span>
+                    <span>(139)</span>
+                  </a>
+                  <a
+                    href=""
+                    className="flex items-center gap-1 text-[14px] text-[#525252]"
+                  >
+                    <MdKeyboardArrowRight />
+                    <span>Education/Training</span>
+                    <span>(426)</span>
+                  </a>
+                  <a
+                    href=""
+                    className="flex items-center gap-1 text-[14px] text-[#525252]"
+                  >
+                    <MdKeyboardArrowRight />
+                    <span>Engineer/Architects</span>
+                    <span>(309)</span>
+                  </a>
+                  <a
+                    href=""
+                    className="flex items-center gap-1 text-[14px] text-[#525252]"
+                  >
+                    <MdKeyboardArrowRight />
+                    <span>Garments/Textile</span>
+                    <span>(479)</span>
+                  </a>
+                  <a
+                    href=""
+                    className="flex items-center gap-1 text-[14px] text-[#525252]"
+                  >
+                    <MdKeyboardArrowRight />
+                    <span>HR/Org.Development</span>
+                    <span>(307)</span>
+                  </a>
+                  <a
+                    href=""
+                    className="flex items-center gap-1 text-[14px] text-[#525252]"
+                  >
+                    <MdKeyboardArrowRight />
+                    <span>Gen Mgt/Admin</span>
+                    <span>(307)</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            {/* item-2 */}
+            <div className="lg:w-[18%] w-full flex flex-col gap-2">
+              {/* child-1 */}
+              <div className="w-full p-2 bg-[#FFFDEC] flex flex-col gap-2 shadow-lg rounded-sm">
+                <h2 className="text-sm uppercase text-[#2a5992] font-bold">
+                  {" "}
+                  Govt Jobs
+                </h2>
+                <div className="flex flex-col gap-1">
+                  <span className="text-sm font-medium text-[#525252]">
+                    নোয়াখালী বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয়
+                  </span>
+                  <span className="text-[#525252] text-[11px]">বাস হেলপার</span>
+                  <span className="text-sm font-medium text-[#525252]">
+                    নোয়াখালী বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয়
+                  </span>
+                  <span className="text-[#525252] text-[11px]">
+                    জুনিয়র ল্যাব টেকনিশিয়ান
+                  </span>
+                </div>
+                <div className="flex justify-between items-center">
+                  <span className="text-[#29612b] text-[11px] font-bold uppercase">
+                    View All (155)
+                  </span>
+                  <span className="text-[#29612b]  font-bold">
+                    <FaCirclePause />
+                  </span>
+                  <span className="flex gap-2 items-center text-[#29612b] font-bold">
+                    <MdOutlineKeyboardArrowRight />
+                    <MdOutlineKeyboardArrowLeft />
+                  </span>
+                </div>
+              </div>
+              {/* child-2 */}
+              <div className="w-full flex gap-2 p-1 bg-[#f3f7f3] rounded-md shadow-md">
+                <img
+                  src="https://bdjobs.com/images/Army-Banner.gif"
+                  alt=""
+                  className="w-[48%]"
+                />
+                <img
+                  src="https://bdjobs.com/images/video-cv.gif"
+                  alt=""
+                  className="w-[48%]"
+                />
+              </div>
+            </div>
+          </div>
+          {/* child-2 */}
+          <div className="flex gap-4 lg:flex-row flex-col ">
+            {/* item-1 */}
+            <div className="lg:w-[80%] w-full p-[15px] flex flex-col gap-4 shadow-lg rounded-md border bg-[#f3f7f3git]">
+              <div className="flex justify-between items-center">
+                <h2 className="flex items-center text-base text-[#2a5992] font-bold">
+                  <span> স্পেশাল স্কিল্‌ড জব্‌স</span>
+                </h2>
+              </div>
+              <div className="flex  gap-4 flex-wrap">
+                <div className="flex flex-col gap-2">
+                  <a
+                    href=""
+                    className="flex items-center gap-1 text-[14px] text-[#525252]"
+                  >
+                    <MdKeyboardArrowRight />
+                    <span>Accounting/Finance</span>
+                    <span>(307)</span>
+                  </a>
+                  <a
+                    href=""
+                    className="flex items-center gap-1 text-[14px] text-[#525252]"
+                  >
+                    <MdKeyboardArrowRight />
+                    <span>Bank/Non-Bank Fin. Institution</span>
+                    <span>(71)</span>
+                  </a>
+                  <a
+                    href=""
+                    className="flex items-center gap-1 text-[14px] text-[#525252]"
+                  >
+                    <MdKeyboardArrowRight />
+                    <span>Supply Chain/Procurement</span>
+                    <span>(139)</span>
+                  </a>
+                  <a
+                    href=""
+                    className="flex items-center gap-1 text-[14px] text-[#525252]"
+                  >
+                    <MdKeyboardArrowRight />
+                    <span>Education/Training</span>
+                    <span>(426)</span>
+                  </a>
+                  <a
+                    href=""
+                    className="flex items-center gap-1 text-[14px] text-[#525252]"
+                  >
+                    <MdKeyboardArrowRight />
+                    <span>Engineer/Architects</span>
+                    <span>(309)</span>
+                  </a>
+                  <a
+                    href=""
+                    className="flex items-center gap-1 text-[14px] text-[#525252]"
+                  >
+                    <MdKeyboardArrowRight />
+                    <span>Garments/Textile</span>
+                    <span>(479)</span>
+                  </a>
+                  <a
+                    href=""
+                    className="flex items-center gap-1 text-[14px] text-[#525252]"
+                  >
+                    <MdKeyboardArrowRight />
+                    <span>HR/Org.Development</span>
+                    <span>(307)</span>
+                  </a>
+                  <a
+                    href=""
+                    className="flex items-center gap-1 text-[14px] text-[#525252]"
+                  >
+                    <MdKeyboardArrowRight />
+                    <span>Gen Mgt/Admin</span>
+                    <span>(307)</span>
+                  </a>
+                </div>
+                <div className="flex flex-col gap-2">
+                  <a
+                    href=""
+                    className="flex items-center gap-1 text-[14px] text-[#525252]"
+                  >
+                    <MdKeyboardArrowRight />
+                    <span>Accounting/Finance</span>
+                    <span>(307)</span>
+                  </a>
+                  <a
+                    href=""
+                    className="flex items-center gap-1 text-[14px] text-[#525252]"
+                  >
+                    <MdKeyboardArrowRight />
+                    <span>Bank/Non-Bank Fin. Institution</span>
+                    <span>(71)</span>
+                  </a>
+                  <a
+                    href=""
+                    className="flex items-center gap-1 text-[14px] text-[#525252]"
+                  >
+                    <MdKeyboardArrowRight />
+                    <span>Supply Chain/Procurement</span>
+                    <span>(139)</span>
+                  </a>
+                  <a
+                    href=""
+                    className="flex items-center gap-1 text-[14px] text-[#525252]"
+                  >
+                    <MdKeyboardArrowRight />
+                    <span>Education/Training</span>
+                    <span>(426)</span>
+                  </a>
+                  <a
+                    href=""
+                    className="flex items-center gap-1 text-[14px] text-[#525252]"
+                  >
+                    <MdKeyboardArrowRight />
+                    <span>Engineer/Architects</span>
+                    <span>(309)</span>
+                  </a>
+                  <a
+                    href=""
+                    className="flex items-center gap-1 text-[14px] text-[#525252]"
+                  >
+                    <MdKeyboardArrowRight />
+                    <span>Garments/Textile</span>
+                    <span>(479)</span>
+                  </a>
+                  <a
+                    href=""
+                    className="flex items-center gap-1 text-[14px] text-[#525252]"
+                  >
+                    <MdKeyboardArrowRight />
+                    <span>HR/Org.Development</span>
+                    <span>(307)</span>
+                  </a>
+                  <a
+                    href=""
+                    className="flex items-center gap-1 text-[14px] text-[#525252]"
+                  >
+                    <MdKeyboardArrowRight />
+                    <span>Gen Mgt/Admin</span>
+                    <span>(307)</span>
+                  </a>
+                </div>
+                <div className="flex flex-col gap-2">
+                  <a
+                    href=""
+                    className="flex items-center gap-1 text-[14px] text-[#525252]"
+                  >
+                    <MdKeyboardArrowRight />
+                    <span>Accounting/Finance</span>
+                    <span>(307)</span>
+                  </a>
+                  <a
+                    href=""
+                    className="flex items-center gap-1 text-[14px] text-[#525252]"
+                  >
+                    <MdKeyboardArrowRight />
+                    <span>Bank/Non-Bank Fin. Institution</span>
+                    <span>(71)</span>
+                  </a>
+                  <a
+                    href=""
+                    className="flex items-center gap-1 text-[14px] text-[#525252]"
+                  >
+                    <MdKeyboardArrowRight />
+                    <span>Supply Chain/Procurement</span>
+                    <span>(139)</span>
+                  </a>
+                  <a
+                    href=""
+                    className="flex items-center gap-1 text-[14px] text-[#525252]"
+                  >
+                    <MdKeyboardArrowRight />
+                    <span>Education/Training</span>
+                    <span>(426)</span>
+                  </a>
+                  <a
+                    href=""
+                    className="flex items-center gap-1 text-[14px] text-[#525252]"
+                  >
+                    <MdKeyboardArrowRight />
+                    <span>Engineer/Architects</span>
+                    <span>(309)</span>
+                  </a>
+                  <a
+                    href=""
+                    className="flex items-center gap-1 text-[14px] text-[#525252]"
+                  >
+                    <MdKeyboardArrowRight />
+                    <span>Garments/Textile</span>
+                    <span>(479)</span>
+                  </a>
+                  <a
+                    href=""
+                    className="flex items-center gap-1 text-[14px] text-[#525252]"
+                  >
+                    <MdKeyboardArrowRight />
+                    <span>HR/Org.Development</span>
+                    <span>(307)</span>
+                  </a>
+                  <a
+                    href=""
+                    className="flex items-center gap-1 text-[14px] text-[#525252]"
+                  >
+                    <MdKeyboardArrowRight />
+                    <span>Gen Mgt/Admin</span>
+                    <span>(307)</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            {/* item-2 */}
+            <div className="lg:w-[18%] w-full flex flex-col gap-2">
+              {/* child-1 */}
+              <div className="w-full  shadow-lg rounded-sm">
+                <img
+                  src="https://bdjobs.com/Banners/home_right/Lean-Six-Sigma-Side-Banner-260x80.png?ver=01"
+                  alt=""
+                  className="w-full h-[80px]"
+                />
+              </div>
+              {/* child-2 */}
+              <div className="w-full rounded-md shadow-md border">
+                <img
+                  src="https://bdjobs.com/Banners/home_right/Sylhet-Job-Fair-Side-Banner-260x240.png?ver=01"
+                  alt=""
+                  className="w-full h-full"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </>
   );
 }
