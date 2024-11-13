@@ -937,6 +937,487 @@ const Home = () => {
           </div>
         </div>
       </div>
+
+      {/* section-3 */}
+      <div className="w-full h-auto pt-4 pb-4 flex justify-center items-center bg-[white]">
+        <div className="content flex flex-col gap-4">
+          <h2 className="text-[16px] font-[700] text-[#2a5992] uppercase">
+            Hot Jobs
+          </h2>
+          <div className="flex flex-wrap ">
+            <div className="lg:w-[25%] sm:w-[33.33%] w-[48%]  p-[15px] flex gap-2 border border-[#ddd] rounded-sm">
+              <div className="h-[54px] p-[3px] shadow-md rounded-md">
+                <img
+                  src="https://hotjobs.bdjobs.com/logos/chemonics48.jpg"
+                  alt=""
+                />
+              </div>
+              <div className="flex flex-col">
+                <h3 className="text-[#2a5992] font-[400] text-[13px]">
+                  Chemonics International Inc.
+                </h3>
+                <span className="text-[#525252] text-[12px]">
+                  Administrative Officer
+                </span>
+              </div>
+            </div>
+            <div className="lg:w-[25%] sm:w-[33.33%] w-[48%]  p-[15px] flex gap-2 border border-[#ddd] rounded-sm">
+              <div className="h-[54px] p-[3px] shadow-md rounded-md">
+                <img
+                  src="https://hotjobs.bdjobs.com/logos/chemonics48.jpg"
+                  alt=""
+                />
+              </div>
+              <div className="flex flex-col">
+                <h3 className="text-[#2a5992] font-[400] text-[13px]">
+                  Chemonics International Inc.
+                </h3>
+                <span className="text-[#525252] text-[12px]">
+                  Administrative Officer
+                </span>
+              </div>
+            </div>
+            <div className="lg:w-[25%] sm:w-[33.33%] w-[48%]  p-[15px] flex gap-2 border border-[#ddd] rounded-sm">
+              <div className="h-[54px] p-[3px] shadow-md rounded-md">
+                <img
+                  src="https://hotjobs.bdjobs.com/logos/chemonics48.jpg"
+                  alt=""
+                />
+              </div>
+              <div className="flex flex-col">
+                <h3 className="text-[#2a5992] font-[400] text-[13px]">
+                  Chemonics International Inc.
+                </h3>
+                <span className="text-[#525252] text-[12px]">
+                  Administrative Officer
+                </span>
+              </div>
+            </div>
+            <div className="lg:w-[25%] sm:w-[33.33%] w-[48%]  p-[15px] flex gap-2 border border-[#ddd] rounded-sm">
+              <div className="h-[54px] p-[3px] shadow-md rounded-md">
+                <img
+                  src="https://hotjobs.bdjobs.com/logos/chemonics48.jpg"
+                  alt=""
+                />
+              </div>
+              <div className="flex flex-col">
+                <h3 className="text-[#2a5992] font-[400] text-[13px]">
+                  Chemonics International Inc.
+                </h3>
+                <span className="text-[#525252] text-[12px]">
+                  Administrative Officer
+                </span>
+              </div>
+            </div>
+            <div className="lg:w-[25%] sm:w-[33.33%] w-[48%]  p-[15px] flex gap-2 border border-[#ddd] rounded-sm">
+              <div className="h-[54px] p-[3px] shadow-md rounded-md">
+                <img
+                  src="https://hotjobs.bdjobs.com/logos/chemonics48.jpg"
+                  alt=""
+                />
+              </div>
+              <div className="flex flex-col">
+                <h3 className="text-[#2a5992] font-[400] text-[13px]">
+                  Chemonics International Inc.
+                </h3>
+                <span className="text-[#525252] text-[12px]">
+                  Administrative Officer
+                </span>
+              </div>
+            </div>
+            <div className="lg:w-[25%] sm:w-[33.33%] w-[48%]  p-[15px] flex gap-2 border border-[#ddd] rounded-sm">
+              <div className="h-[54px] p-[3px] shadow-md rounded-md">
+                <img
+                  src="https://hotjobs.bdjobs.com/logos/chemonics48.jpg"
+                  alt=""
+                />
+              </div>
+              <div className="flex flex-col">
+                <h3 className="text-[#2a5992] font-[400] text-[13px]">
+                  Chemonics International Inc.
+                </h3>
+                <span className="text-[#525252] text-[12px]">
+                  Administrative Officer
+                </span>
+              </div>
+            </div>
+            <div className="lg:w-[25%] sm:w-[33.33%] w-[48%]  p-[15px] flex gap-2 border border-[#ddd] rounded-sm">
+              <div className="h-[54px] p-[3px] shadow-md rounded-md">
+                <img
+                  src="https://hotjobs.bdjobs.com/logos/chemonics48.jpg"
+                  alt=""
+                />
+              </div>
+              <div className="flex flex-col">
+                <h3 className="text-[#2a5992] font-[400] text-[13px]">
+                  Chemonics International Inc.
+                </h3>
+                <span className="text-[#525252] text-[12px]">
+                  Administrative Officer
+                </span>
+              </div>
+            </div>
+            <div className="lg:w-[25%] sm:w-[33.33%] w-[48%]  p-[15px] flex gap-2 border border-[#ddd] rounded-sm">
+              <div className="h-[54px] p-[3px] shadow-md rounded-md">
+                <img
+                  src="https://hotjobs.bdjobs.com/logos/chemonics48.jpg"
+                  alt=""
+                />
+              </div>
+              <div className="flex flex-col">
+                <h3 className="text-[#2a5992] font-[400] text-[13px]">
+                  Chemonics International Inc.
+                </h3>
+                <span className="text-[#525252] text-[12px]">
+                  Administrative Officer
+                </span>
+              </div>
+            </div>
+            <div className="lg:w-[25%] sm:w-[33.33%] w-[48%]  p-[15px] flex gap-2 border border-[#ddd] rounded-sm">
+              <div className="h-[54px] p-[3px] shadow-md rounded-md">
+                <img
+                  src="https://hotjobs.bdjobs.com/logos/chemonics48.jpg"
+                  alt=""
+                />
+              </div>
+              <div className="flex flex-col">
+                <h3 className="text-[#2a5992] font-[400] text-[13px]">
+                  Chemonics International Inc.
+                </h3>
+                <span className="text-[#525252] text-[12px]">
+                  Administrative Officer
+                </span>
+              </div>
+            </div>
+            <div className="lg:w-[25%] sm:w-[33.33%] w-[48%]  p-[15px] flex gap-2 border border-[#ddd] rounded-sm">
+              <div className="h-[54px] p-[3px] shadow-md rounded-md">
+                <img
+                  src="https://hotjobs.bdjobs.com/logos/chemonics48.jpg"
+                  alt=""
+                />
+              </div>
+              <div className="flex flex-col">
+                <h3 className="text-[#2a5992] font-[400] text-[13px]">
+                  Chemonics International Inc.
+                </h3>
+                <span className="text-[#525252] text-[12px]">
+                  Administrative Officer
+                </span>
+              </div>
+            </div>
+            <div className="lg:w-[25%] sm:w-[33.33%] w-[48%]  p-[15px] flex gap-2 border border-[#ddd] rounded-sm">
+              <div className="h-[54px] p-[3px] shadow-md rounded-md">
+                <img
+                  src="https://hotjobs.bdjobs.com/logos/chemonics48.jpg"
+                  alt=""
+                />
+              </div>
+              <div className="flex flex-col">
+                <h3 className="text-[#2a5992] font-[400] text-[13px]">
+                  Chemonics International Inc.
+                </h3>
+                <span className="text-[#525252] text-[12px]">
+                  Administrative Officer
+                </span>
+              </div>
+            </div>
+            <div className="lg:w-[25%] sm:w-[33.33%] w-[48%]  p-[15px] flex gap-2 border border-[#ddd] rounded-sm">
+              <div className="h-[54px] p-[3px] shadow-md rounded-md">
+                <img
+                  src="https://hotjobs.bdjobs.com/logos/chemonics48.jpg"
+                  alt=""
+                />
+              </div>
+              <div className="flex flex-col">
+                <h3 className="text-[#2a5992] font-[400] text-[13px]">
+                  Chemonics International Inc.
+                </h3>
+                <span className="text-[#525252] text-[12px]">
+                  Administrative Officer
+                </span>
+              </div>
+            </div>
+            <div className="lg:w-[25%] sm:w-[33.33%] w-[48%]  p-[15px] flex gap-2 border border-[#ddd] rounded-sm">
+              <div className="h-[54px] p-[3px] shadow-md rounded-md">
+                <img
+                  src="https://hotjobs.bdjobs.com/logos/chemonics48.jpg"
+                  alt=""
+                />
+              </div>
+              <div className="flex flex-col">
+                <h3 className="text-[#2a5992] font-[400] text-[13px]">
+                  Chemonics International Inc.
+                </h3>
+                <span className="text-[#525252] text-[12px]">
+                  Administrative Officer
+                </span>
+              </div>
+            </div>
+            <div className="lg:w-[25%] sm:w-[33.33%] w-[48%]  p-[15px] flex gap-2 border border-[#ddd] rounded-sm">
+              <div className="h-[54px] p-[3px] shadow-md rounded-md">
+                <img
+                  src="https://hotjobs.bdjobs.com/logos/chemonics48.jpg"
+                  alt=""
+                />
+              </div>
+              <div className="flex flex-col">
+                <h3 className="text-[#2a5992] font-[400] text-[13px]">
+                  Chemonics International Inc.
+                </h3>
+                <span className="text-[#525252] text-[12px]">
+                  Administrative Officer
+                </span>
+              </div>
+            </div>
+            <div className="lg:w-[25%] sm:w-[33.33%] w-[48%]  p-[15px] flex gap-2 border border-[#ddd] rounded-sm">
+              <div className="h-[54px] p-[3px] shadow-md rounded-md">
+                <img
+                  src="https://hotjobs.bdjobs.com/logos/chemonics48.jpg"
+                  alt=""
+                />
+              </div>
+              <div className="flex flex-col">
+                <h3 className="text-[#2a5992] font-[400] text-[13px]">
+                  Chemonics International Inc.
+                </h3>
+                <span className="text-[#525252] text-[12px]">
+                  Administrative Officer
+                </span>
+              </div>
+            </div>
+            <div className="lg:w-[25%] sm:w-[33.33%] w-[48%]  p-[15px] flex gap-2 border border-[#ddd] rounded-sm">
+              <div className="h-[54px] p-[3px] shadow-md rounded-md">
+                <img
+                  src="https://hotjobs.bdjobs.com/logos/chemonics48.jpg"
+                  alt=""
+                />
+              </div>
+              <div className="flex flex-col">
+                <h3 className="text-[#2a5992] font-[400] text-[13px]">
+                  Chemonics International Inc.
+                </h3>
+                <span className="text-[#525252] text-[12px]">
+                  Administrative Officer
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* section-4 */}
+      <div className="w-full h-auto pt-4 pb-4 flex justify-center items-center bg-[#EEEEEE]">
+        <div className="content flex flex-col gap-4">
+          <h2 className="text-[16px] text-[#2F64A3] uppercase font-bold">
+            <span>Tender/ Eoi</span>
+          </h2>
+          <div className="flex flex-wrap gap-4 ">
+            <div className="lg:w-[32%] sm:w-[48%] w-full bg-[white] p-4 flex sm:flex-row flex-col justify-center items-center gap-4">
+              <div className="w-[64px] h-[64px] rounded-full shadow-lg flex justify-center items-center">
+                <img
+                  src="https://hotjobs.bdjobs.com/logos/nrc300.png"
+                  alt=""
+                  className="w-[40px] h-[40px] rounded-full"
+                />
+              </div>
+              <div className="flex flex-col text-center">
+                <h2 className="text-[#ac016d] text-[12px] font-bold">
+                  <span>Norwegian Refugee Council,Bangladesh</span>
+                </h2>
+                <span className="text-[#525252] text-[12px] font-medium">
+                  Tender Advertisement-Long-Term Framework Agreement
+                </span>
+              </div>
+            </div>
+            <div className="lg:w-[32%] sm:w-[48%] w-full bg-[white] p-4 flex sm:flex-row flex-col justify-center items-center gap-4">
+              <div className="w-[64px] h-[64px] rounded-full shadow-lg flex justify-center items-center">
+                <img
+                  src="https://hotjobs.bdjobs.com/logos/nrc300.png"
+                  alt=""
+                  className="w-[40px] h-[40px] rounded-full"
+                />
+              </div>
+              <div className="flex flex-col text-center">
+                <h2 className="text-[#ac016d] text-[12px] font-bold">
+                  <span>Norwegian Refugee Council,Bangladesh</span>
+                </h2>
+                <span className="text-[#525252] text-[12px] font-medium">
+                  Tender Advertisement-Long-Term Framework Agreement
+                </span>
+              </div>
+            </div>
+            <div className="lg:w-[32%] sm:w-[48%] w-full bg-[white] p-4 flex sm:flex-row flex-col justify-center items-center gap-4">
+              <div className="w-[64px] h-[64px] rounded-full shadow-lg flex justify-center items-center">
+                <img
+                  src="https://hotjobs.bdjobs.com/logos/nrc300.png"
+                  alt=""
+                  className="w-[40px] h-[40px] rounded-full"
+                />
+              </div>
+              <div className="flex flex-col text-center">
+                <h2 className="text-[#ac016d] text-[12px] font-bold">
+                  <span>Norwegian Refugee Council,Bangladesh</span>
+                </h2>
+                <span className="text-[#525252] text-[12px] font-medium">
+                  Tender Advertisement-Long-Term Framework Agreement
+                </span>
+              </div>
+            </div>
+            <div className="lg:w-[32%] sm:w-[48%] w-full bg-[white] p-4 flex sm:flex-row flex-col justify-center items-center gap-4">
+              <div className="w-[64px] h-[64px] rounded-full shadow-lg flex justify-center items-center">
+                <img
+                  src="https://hotjobs.bdjobs.com/logos/nrc300.png"
+                  alt=""
+                  className="w-[40px] h-[40px] rounded-full"
+                />
+              </div>
+              <div className="flex flex-col text-center">
+                <h2 className="text-[#ac016d] text-[12px] font-bold">
+                  <span>Norwegian Refugee Council,Bangladesh</span>
+                </h2>
+                <span className="text-[#525252] text-[12px] font-medium">
+                  Tender Advertisement-Long-Term Framework Agreement
+                </span>
+              </div>
+            </div>
+            <div className="lg:w-[32%] sm:w-[48%] w-full bg-[white] p-4 flex sm:flex-row flex-col justify-center items-center gap-4">
+              <div className="w-[64px] h-[64px] rounded-full shadow-lg flex justify-center items-center">
+                <img
+                  src="https://hotjobs.bdjobs.com/logos/nrc300.png"
+                  alt=""
+                  className="w-[40px] h-[40px] rounded-full"
+                />
+              </div>
+              <div className="flex flex-col text-center">
+                <h2 className="text-[#ac016d] text-[12px] font-bold">
+                  <span>Norwegian Refugee Council,Bangladesh</span>
+                </h2>
+                <span className="text-[#525252] text-[12px] font-medium">
+                  Tender Advertisement-Long-Term Framework Agreement
+                </span>
+              </div>
+            </div>
+            <div className="lg:w-[32%] sm:w-[48%] w-full bg-[white] p-4 flex sm:flex-row flex-col justify-center items-center gap-4">
+              <div className="w-[64px] h-[64px] rounded-full shadow-lg flex justify-center items-center">
+                <img
+                  src="https://hotjobs.bdjobs.com/logos/nrc300.png"
+                  alt=""
+                  className="w-[40px] h-[40px] rounded-full"
+                />
+              </div>
+              <div className="flex flex-col text-center">
+                <h2 className="text-[#ac016d] text-[12px] font-bold">
+                  <span>Norwegian Refugee Council,Bangladesh</span>
+                </h2>
+                <span className="text-[#525252] text-[12px] font-medium">
+                  Tender Advertisement-Long-Term Framework Agreement
+                </span>
+              </div>
+            </div>
+            <div className="lg:w-[32%] sm:w-[48%] w-full bg-[white] p-4 flex sm:flex-row flex-col justify-center items-center gap-4">
+              <div className="w-[64px] h-[64px] rounded-full shadow-lg flex justify-center items-center">
+                <img
+                  src="https://hotjobs.bdjobs.com/logos/nrc300.png"
+                  alt=""
+                  className="w-[40px] h-[40px] rounded-full"
+                />
+              </div>
+              <div className="flex flex-col text-center">
+                <h2 className="text-[#ac016d] text-[12px] font-bold">
+                  <span>Norwegian Refugee Council,Bangladesh</span>
+                </h2>
+                <span className="text-[#525252] text-[12px] font-medium">
+                  Tender Advertisement-Long-Term Framework Agreement
+                </span>
+              </div>
+            </div>
+            <div className="lg:w-[32%] sm:w-[48%] w-full bg-[white] p-4 flex sm:flex-row flex-col justify-center items-center gap-4">
+              <div className="w-[64px] h-[64px] rounded-full shadow-lg flex justify-center items-center">
+                <img
+                  src="https://hotjobs.bdjobs.com/logos/nrc300.png"
+                  alt=""
+                  className="w-[40px] h-[40px] rounded-full"
+                />
+              </div>
+              <div className="flex flex-col text-center">
+                <h2 className="text-[#ac016d] text-[12px] font-bold">
+                  <span>Norwegian Refugee Council,Bangladesh</span>
+                </h2>
+                <span className="text-[#525252] text-[12px] font-medium">
+                  Tender Advertisement-Long-Term Framework Agreement
+                </span>
+              </div>
+            </div>
+            <div className="lg:w-[32%] sm:w-[48%] w-full bg-[white] p-4 flex sm:flex-row flex-col justify-center items-center gap-4">
+              <div className="w-[64px] h-[64px] rounded-full shadow-lg flex justify-center items-center">
+                <img
+                  src="https://hotjobs.bdjobs.com/logos/nrc300.png"
+                  alt=""
+                  className="w-[40px] h-[40px] rounded-full"
+                />
+              </div>
+              <div className="flex flex-col text-center">
+                <h2 className="text-[#ac016d] text-[12px] font-bold">
+                  <span>Norwegian Refugee Council,Bangladesh</span>
+                </h2>
+                <span className="text-[#525252] text-[12px] font-medium">
+                  Tender Advertisement-Long-Term Framework Agreement
+                </span>
+              </div>
+            </div>
+            <div className="lg:w-[32%] sm:w-[48%] w-full bg-[white] p-4 flex sm:flex-row flex-col justify-center items-center gap-4">
+              <div className="w-[64px] h-[64px] rounded-full shadow-lg flex justify-center items-center">
+                <img
+                  src="https://hotjobs.bdjobs.com/logos/nrc300.png"
+                  alt=""
+                  className="w-[40px] h-[40px] rounded-full"
+                />
+              </div>
+              <div className="flex flex-col text-center">
+                <h2 className="text-[#ac016d] text-[12px] font-bold">
+                  <span>Norwegian Refugee Council,Bangladesh</span>
+                </h2>
+                <span className="text-[#525252] text-[12px] font-medium">
+                  Tender Advertisement-Long-Term Framework Agreement
+                </span>
+              </div>
+            </div>
+            <div className="lg:w-[32%] sm:w-[48%] w-full bg-[white] p-4 flex sm:flex-row flex-col justify-center items-center gap-4">
+              <div className="w-[64px] h-[64px] rounded-full shadow-lg flex justify-center items-center">
+                <img
+                  src="https://hotjobs.bdjobs.com/logos/nrc300.png"
+                  alt=""
+                  className="w-[40px] h-[40px] rounded-full"
+                />
+              </div>
+              <div className="flex flex-col text-center">
+                <h2 className="text-[#ac016d] text-[12px] font-bold">
+                  <span>Norwegian Refugee Council,Bangladesh</span>
+                </h2>
+                <span className="text-[#525252] text-[12px] font-medium">
+                  Tender Advertisement-Long-Term Framework Agreement
+                </span>
+              </div>
+            </div>
+            <div className="lg:w-[32%] sm:w-[48%] w-full bg-[white] p-4 flex sm:flex-row flex-col justify-center items-center gap-4">
+              <div className="w-[64px] h-[64px] rounded-full shadow-lg flex justify-center items-center">
+                <img
+                  src="https://hotjobs.bdjobs.com/logos/nrc300.png"
+                  alt=""
+                  className="w-[40px] h-[40px] rounded-full"
+                />
+              </div>
+              <div className="flex flex-col text-center">
+                <h2 className="text-[#ac016d] text-[12px] font-bold">
+                  <span>Norwegian Refugee Council,Bangladesh</span>
+                </h2>
+                <span className="text-[#525252] text-[12px] font-medium">
+                  Tender Advertisement-Long-Term Framework Agreement
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </>
   );
 }
