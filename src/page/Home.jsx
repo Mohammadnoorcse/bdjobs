@@ -9,8 +9,10 @@ import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { HiOutlineMenuAlt3 } from "react-icons/hi";
 import { MdKeyboardArrowRight } from "react-icons/md";
 import { FaCirclePause } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 
 const Home = () => {
+  
   return (
     <>
       {/* desktop screen  section-1 */}
@@ -458,14 +460,14 @@ const Home = () => {
               </div>
               <div className="flex  gap-4 flex-wrap">
                 <div className="flex flex-col gap-2">
-                  <a
-                    href=""
+                  <Link
+                    to="/job/1"
                     className="flex items-center gap-1 text-[14px] text-[#525252]"
                   >
                     <MdKeyboardArrowRight />
                     <span>Accounting/Finance</span>
                     <span>(307)</span>
-                  </a>
+                  </Link>
                   <a
                     href=""
                     className="flex items-center gap-1 text-[14px] text-[#525252]"
