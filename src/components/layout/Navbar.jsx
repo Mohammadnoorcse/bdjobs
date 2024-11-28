@@ -33,7 +33,7 @@ const Navbar = () => {
             </Link>
 
             <Link
-              to="/"
+              to="/myjobs"
               className="p-2  font-[400] text-[#bdbdbd] hover:text-white hover:bg-[#007A1E] text-[11px] uppercase"
             >
               my bdjobs
