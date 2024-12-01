@@ -104,7 +104,7 @@ const Home = () => {
               </button>
             </div>
             <div className="border p-4 flex flex-col gap-2">
-              <h2 className='text-base font-medium'>My Activities</h2>
+              <h2 className='text-base font-medium'>My Activitie</h2>
             </div>
           </div>
         </div>
