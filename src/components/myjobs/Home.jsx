@@ -1,8 +1,9 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { ImStatsDots } from "react-icons/im";
 import {Link} from "react-router-dom"
 import { FaArrowRight } from "react-icons/fa";
 const Home = () => {
+  const [active,setActive] = useState('month');
   return (
     <div className="flex flex-col gap-4">
       {/* child-1 */}
@@ -64,6 +65,46 @@ const Home = () => {
                 Buy SMS
                 <FaArrowRight />
               </Link>
+            </div>
+          </div>
+        </div>
+        {/* item-3 */}
+        <div className="flex flex-col gap-4">
+          <div className="w-full h-[2.5rem] bg-[#F0D5E5] flex ">
+            <div className="w-[50%] flex justify-center items-center border-b-[2px] border-[#B32D7D] cursor-pointer">
+              <h2 className="text-sm font-bold text-[#B32D7D]">General</h2>
+            </div>
+            <div className="w-[50%] flex justify-center items-center border-b-[2px] hover:border-[#B32D7D] cursor-pointer">
+              <h2 className="text-sm font-bold text-[#595959] hover:text-[#B32D7D]">
+                Bdjobs Pro
+              </h2>
+            </div>
+          </div>
+          <div className="flex flex-col">
+            <div className="flex relative top-1">
+              <button
+                className={`w-[8rem] py-2  ${
+                  active === "month"
+                    ? "border-t border-l border-r z-10 bg-white "
+                    : ""
+                } text-[14px]`}
+                onClick={() => setActive("month")}
+              >
+                This month
+              </button>
+              <button
+                className={`w-[8rem] py-2  ${
+                  active === "year"
+                    ? "border-t border-l border-r z-10 bg-white text-[#008BEA]"
+                    : ""
+                } text-[14px]`}
+                onClick={() => setActive("year")}
+              >
+                Last 1 year
+              </button>
+            </div>
+            <div className="border p-4 flex flex-col gap-2">
+              <h2 className='text-base font-medium'>My Activities</h2>
             </div>
           </div>
         </div>
