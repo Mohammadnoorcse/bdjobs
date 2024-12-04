@@ -39,7 +39,7 @@ const Navbar = () => {
               my bdjobs
             </Link>
             <Link
-              to="/"
+              to="/elearning"
               className="p-2  font-[400] text-[#bdbdbd] hover:text-white hover:bg-[#007A1E] text-[11px] uppercase"
             >
               e-learning
