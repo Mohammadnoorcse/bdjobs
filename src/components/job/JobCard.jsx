@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const JobCard = () => {
   return (
     <Link
-      to="/"
+      to={`/job/category/1`}
       className="bg-[#FBFBFB] border border-[#d5d5d5] rounded-md text-[#656565] flex flex-col gap-1 p-3 hover:bg-[#F5F5F5]"
     >
       <h2 className="text-[18px] font-[600] text-[#43A047]">
