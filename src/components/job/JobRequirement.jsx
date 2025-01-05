@@ -22,6 +22,7 @@ const JobRequirement = () => {
         </div>
         {/* summery */}
         {/* requirements */}
+        {/* nooor */}
       </div>
     </div>
   );
