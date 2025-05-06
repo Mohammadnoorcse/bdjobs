@@ -6,10 +6,14 @@ import { FaFacebook } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { RiWhatsappFill } from "react-icons/ri";
 import { MdLocalPrintshop } from "react-icons/md";
+import { IoCallSharp } from "react-icons/io5";
+import { MdMessage } from "react-icons/md";
+import { RiAlertFill } from "react-icons/ri";
+
 const JobRequirement = () => {
   return (
     <div className="w-full h-auto flex justify-center items-center bg-[white]">
-      <div className="content flex flex-col gap-4 border border-[red] mt-4 p-2">
+      <div className="content flex flex-col gap-4 mt-4 p-2">
         {/* header change */}
         <div className="flex flex-col gap-2">
           <h2 className="text-[#333] text-[16px] font-semibold">
@@ -168,6 +172,58 @@ const JobRequirement = () => {
               </span>
             </div>
           </div>
+        </div>
+
+        <div className="p-4 border rounded-md flex flex-col gap-1 bg-[#F4F4F4]">
+          <div className="flex justify-between">
+            <h1 className="text-base font-semibold text-[#B32D7D]">
+              Company Information
+            </h1>
+            <button className="px-4 py-1 border-2 border-[#CCE7FF] text-base font-medium rounded">
+              Follow
+            </button>
+          </div>
+          <p className="text-[#333333] text-sm font-normal">
+            MNRB Food & Beverages
+          </p>
+          <h5 className="text-[#333333] text-sm font-semibold">Address:</h5>
+          <p className="text-[#333333] text-sm font-normal">
+            almas cinema hall moor,kazir dewri, chattogram
+          </p>
+          <h5 className="text-[#333333] text-sm font-semibold">Business:</h5>
+          <p className="text-[#333333] text-sm font-normal">Food business</p>
+        </div>
+        <div className="p-4 border rounded-md flex flex-col gap-1 bg-[#F4F4F4]">
+          <div className="flex justify-between">
+            <h1 className="text-base font-semibold text-[#BF3835]">
+              Report this Job / Company (রিপোর্ট)
+            </h1>
+            <button className="px-4 py-1 border border-[#BF3835] text-base font-medium rounded flex items-center gap-1">
+              <span className="text-[#BF3835]">
+                <RiAlertFill />
+              </span>
+              রিপোর্ট
+            </button>
+          </div>
+          <p className="text-[#333333] text-sm font-normal mt-2">
+            এই চাকরির জন্য বিজ্ঞাপন দাতা প্রতিষ্ঠান আপনার কাছ থেকে কোন অর্থ
+            চাইলে অথবা কোন ধরনের ভুল বা বিভ্রান্তিকর তথ্য দিলে অতি সত্ত্বর
+            আমাদেরকে জানান অথবা জবটি রিপোর্ট করুন। চাকরি পাওয়ার জন্য কোন
+            ব্যাক্তি / প্রতিষ্ঠানকে অর্থ প্রদান করবেন না। কোন প্রকার অর্থ
+            লেনদেনের দায়িত্ব বিডিজবস বহন করবে না।
+          </p>
+          <h5 className="text-[#333333] text-sm font-semibold flex items-center gap-1">
+            <span className="text-[#215EA0]">
+              <IoCallSharp />
+            </span>
+            09638666444, 01897627858
+          </h5>
+          <h5 className="text-[#333333] text-sm font-semibold flex items-center gap-1">
+            <span className="text-[#215EA0]">
+              <MdMessage />
+            </span>
+            complain@bdjobs.com
+          </h5>
         </div>
       </div>
     </div>
